@@ -26,6 +26,14 @@ public class BinaryTree <E extends Comparable<E>>{
         return current;
     }
 
+    public int size() {
+        return this.getSize(root);
+    }
+    // if no root return 0 else return root count->1 + size of left subtree + size of right subtree
+    public int getSize(BinaryNode<E> current) {
+        return current == null ? 0 : 1 + this.getSize(current.leftNode) + this.getSize(current.rightNode);
+    }
+
     public static void main(String[] args) {
 
     }
