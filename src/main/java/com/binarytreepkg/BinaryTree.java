@@ -34,6 +34,31 @@ public class BinaryTree <E extends Comparable<E>>{
         return current == null ? 0 : 1 + this.getSize(current.leftNode) + this.getSize(current.rightNode);
     }
 
+    //Binary Search Tree is passed as a parameter to search
+    public boolean search(E data) {
+        return searchNode(this.root, data);
+    }
+
+    //Recursive search takes place
+    public boolean searchNode(BinaryNode<E> current, E data) {
+        // if root is absent return false
+        if(current == null) {
+            return false;
+        }
+        //if data matches with root return true
+        else if(current.key == data) {
+            return true;
+        }
+        //repeat the search operation for the left subtree
+        else if(current.key.compareTo(data) > 0) {
+            return this.searchNode(current.leftNode, data);
+        }
+        //repeat the operation for right subtree
+        else {
+            return this.searchNode(current.rightNode, data);
+        }
+    }
+
     public static void main(String[] args) {
 
     }

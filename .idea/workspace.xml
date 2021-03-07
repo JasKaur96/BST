@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c45b5e8d-c00f-4fe7-b55b-e84159f40bf5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/binarytreepkg/BinaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binarytreepkg/BinaryNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/binarytreepkg/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binarytreepkg/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
