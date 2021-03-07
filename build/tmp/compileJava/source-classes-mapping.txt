@@ -1,4 +1,4 @@
-com/binarytreepkg/MyBinaryNode.java
- com.binarytreepkg.MyBinaryNode
+com/binarytreepkg/BinaryNode.java
+ com.binarytreepkg.BinaryNode
 com/binarytreepkg/BinaryTree.java
  com.binarytreepkg.BinaryTree
